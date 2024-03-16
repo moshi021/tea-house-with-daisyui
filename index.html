@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tea House</title>
+    
+    <!-- DaisyUI and Tailwind cdn -->
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@4.7.3/dist/full.min.css" rel="stylesheet" type="text/css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+
+    <!-- Manrope font link -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap" rel="stylesheet">
+
+    <!-- styles -->
+    <style>
+        .font-manrope{
+            font-family: "Manrope", sans-serif;
+            font-optical-sizing: auto;
+            font-style: normal;
+        }
+    </style>
+</head>
+<body class="font-manrope ">
+    <header class="p-5">
+      <div class="hero">
+        <div class="hero-content flex flex-col lg:flex-row ">
+          
+          <div>
+            <h1 class="text-4xl lg:text-7xl font-extrabold leading-tight">It's good <br> tea time at The <br> Tea House</h1>
+            <p class="py-6 font-medium text-lg">Tea and Botanical Solutions Supplier Give Optimum Satisfaction To Your Taste Buds.</p>
+            <button class="border-none btn btn-primary bg-gradient-to-r from-[#ff0000] to-[#ff8938]">
+              <p class="text-white ">Explore More</p>
+              <img src="resources/arrow.png" alt="">
+            </button>
+          </div>
+
+          <div>
+            <img src="resources/banner.webp" class="max-w-sm">
+            <div class="ml-5 shadow-lg bg-white -mt-12 max-p-6 p-6 ">
+              <div class="flex items-center gap-4">
+                <img class="max-w-9 max-h-9" src="resources/star.png" alt="">
+                <p class="font-extrabold text-3xl">5.00</p>
+              </div>
+              <p class="text-base font-semibold">Trust Pilot Ratings</p>
+
+          </div>
+          
+
+
+        </div>
+      </div>
+
+    </header>
+    
+    <main class="mt-20 p-5">
+        <h3 class="font-extrabold text-5xl p-5 text-center">Our Featured Products</h3>
+        <p class="text-base font-medium text-center mb-5">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, <br> by injected humour, or randomised words which don't look even slightly believable.</p>
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4"> 
+            <!-- card 1 -->
+            <div class="card p-6 shadow-xl">
+              <figure class="px-10 pt-10">
+                <img src="resources/tea-1.png" alt="tea" class="rounded-xl" />
+              </figure>
+              <div class="card-body items-center text-center">
+                <h2 class="text-2xl font-extrabold">Milk Tea</h2>
+                <p class="text-base font-semibold">Creamer could be replaced by fresh milk</p>
+              </div>
+            </div>
+
+            <!-- card 2 -->
+            <div class="card p-6 bg-base-100 shadow-xl">
+              <figure class="px-10 pt-10">
+                <img src="resources/tea-2.png" alt="Shoes" class="rounded-xl" />
+              </figure>
+              <div class="cbodyard- items-center text-center">
+                <h2 class="">Shoes!</h2>
+                <p>If a dog chews shoes whose shoes does he choose?</p>
+              </div>
+            </div>
+
+            <!-- card 3 -->
+            <div class="card p-6 bg-base-100 shadow-xl">
+              <figure class="px-10 pt-10">
+                <img src="resources/tea-3.png" alt="Shoes" class="rounded-xl" />
+              </figure>
+              <div class="card-body items-center text-center">
+                <h2 class="card-title">Shoes!</h2>
+                <p>If a dog chews shoes whose shoes does he choose?</p>
+              </div>
+            </div>
+
+            <!-- card 4 -->
+
+            <div class="card p-6 bg-base-100 shadow-xl">
+              <figure class="px-10 pt-10">
+                <img src="resources/tea-4.png" alt="Shoes" class="rounded-xl" />
+              </figure>
+              <div class="card-body items-center text-center">
+                <h2 class="card-title">Shoes!</h2>
+                <p>If a dog chews shoes whose shoes does he choose?</p>
+              </div>
+            </div>
+
+
+        </div>
+    </main>
+  
+</body>
+</html>
